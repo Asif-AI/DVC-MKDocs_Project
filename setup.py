@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-REPO_NAME = "DVC_Pruject_MKDocs_Project_Template"
+REPO_NAME = "DVC-MKDocs_Project"
 SRC_REPO = "src"
 AUTHOR_USER_NAME = "Asif-AI"
 LIST_OF_REQUIREMENTS = []
@@ -14,7 +14,7 @@ setup(
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
-    description="DVC and MKDocs Project",
+    description="DVC-MKDocs_Project",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
